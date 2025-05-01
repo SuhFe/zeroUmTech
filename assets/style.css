@@ -1,38 +1,59 @@
-html {
-    background: linear-gradient(177.52deg, #084627 2.11%, #074430 81.34%);
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
 body {
-    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
-}
-
-h2, footer {
-    font-family: 'Mansalva';
-}
-
-button {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header,
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .produto {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .produto h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .botao {
+    background: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
     border: none;
-}
-
-.itens-comprados {
-text-decoration: line-through;
-}
-
-.borda-lista {
-    border-bottom: dotted 2px blue;
-}
-
-input:disabled {
-    border: none;
-    background: none;
-    color: black;
-}
-
-input {
-    border: none;
-    background: none;
-    color: black;
-}
-
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .botao:hover {
+    background: #218838;
+  }
+  
